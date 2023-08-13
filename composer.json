@@ -1,0 +1,23 @@
+{
+    "name": "open-developer-ext/helpers",
+    "description": "Helpers extension for open-developer",
+    "type": "library",
+    "keywords": ["open-developer", "helpers"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0",
+        "open-developer/open-developer": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenDeveloper\\Developer\\Helpers\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OpenDeveloper\\Developer\\Helpers\\HelpersServiceProvider"
+            ]
+        }
+    }
+}
