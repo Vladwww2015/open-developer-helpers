@@ -6,7 +6,7 @@
     "license": "MIT",
     "require": {
         "php": ">=7.0.0",
-        "open-developer/open-developer": "~1.0"
+        "open-developer/open-developer": "*"
     },
     "autoload": {
         "psr-4": {
